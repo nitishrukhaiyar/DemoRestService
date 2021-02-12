@@ -30,7 +30,7 @@ public class EmployeeRestController {
     {
         int size=String.valueOf(employeeId).length();
 
-        if(employeeId<0||size>4||size<4)
+        if(employeeId<0||size>3)
         {
             throw new InvalidArgument("Employee_id: "+employeeId+"is invalid!");
         }

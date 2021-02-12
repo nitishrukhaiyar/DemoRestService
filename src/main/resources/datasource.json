@@ -1,0 +1,9 @@
+[
+  {
+    "dataSource": {
+      "url": "jdbc:oracle:thin:@//localhost:1521/XE",
+      "username": "system",
+      "password": "Gaya#1234!"
+    }
+  }
+]
